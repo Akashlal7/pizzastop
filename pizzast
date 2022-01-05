@@ -1,0 +1,7 @@
+Chef_ID = [32,27,56]
+Order_ID = [200,201]
+
+for order in Order_ID:
+    print("#"+str(order)+" - Chef",Chef_ID[0])
+    Chef_ID.append(Chef_ID[0])
+    del Chef_ID[0]
